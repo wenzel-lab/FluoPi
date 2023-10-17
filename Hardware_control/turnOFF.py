@@ -9,7 +9,7 @@ if len(sys.argv)==2:
     GPIO_num = int(sys.argv[1])            # e.g. Timelapse
 
 else:
-    GPIO_num = 29   #GPIO 29 is used as the default
+    GPIO_num = 40   #GPIO 29 is used as the default
 
 GPIO.setwarnings(False)
     
